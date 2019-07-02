@@ -5,13 +5,10 @@
     $request .= '&PARTNER='.$PARTNER;
     $request .= '&PWD='.$PWD;
     $request .= '&TENDER=C';
-    $request .= '&TRXTYPE=A' ; // A => authorize
-    $request .= '&AMT=100';
+    $request .= '&TRXTYPE=D' ; // D => delay capture
+    $request .= '&AMT=60';
     $request .= '&CURRENCY=USD';
-    $request .= '&NAME=sadam bapunawar';
-    $request .= '&ACCT=4111111111111111';
-    $request .= '&EXPDATE=0522';
-    $request .= '&CVV2=123';
+    $request .= '&ORIGID=A50A0AF6EFC0';
 
     if ($METHOD == 'live') {
         $curl = curl_init('https://payflowpro.paypal.com');
