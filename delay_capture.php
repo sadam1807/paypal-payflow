@@ -8,7 +8,7 @@
     $request .= '&TRXTYPE=D' ; // D => delay capture
     $request .= '&AMT=60';
     $request .= '&CURRENCY=USD';
-    $request .= '&ORIGID=A40A0AF7836F';
+    $request .= '&ORIGID=A70AAC321078';
 
     if ($METHOD == 'live') {
         $curl = curl_init('https://payflowpro.paypal.com');

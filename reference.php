@@ -8,7 +8,7 @@
     $request .= '&TRXTYPE=S' ; // S => sale transaction
     $request .= '&AMT=40';
     $request .= '&CURRENCY=USD';
-    $request .= '&ORIGID=A30A2EF207F2';
+    $request .= '&ORIGID=A70AAC321078';
 
     if ($METHOD == 'live') {
         $curl = curl_init('https://payflowpro.paypal.com');

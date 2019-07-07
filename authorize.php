@@ -8,7 +8,7 @@
     $request .= '&TRXTYPE=A' ; // A => authorize
     $request .= '&AMT=100';
     $request .= '&CURRENCY=USD';
-    $request .= '&NAME=sadam hussain';
+    $request .= '&NAME=Mr X';
     $request .= '&ACCT=4111111111111111';
     $request .= '&EXPDATE=0522';
     $request .= '&CVV2=123';
